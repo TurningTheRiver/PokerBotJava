@@ -130,7 +130,7 @@ public class HandEval
 		}
 		else if(hand[0]==hand[1] || hand[1]==hand[2] || hand[2]==hand[3] || hand[3]==hand[4]) // pair
 		{
-			return 50.00;
+			return 55.00;
 		}
 		else // high card
 		{
@@ -184,7 +184,7 @@ public class HandEval
 		{
 			return 70.00;
 		}	// 12, 34 or 45 or 56. 	`   or			23, 45. 		or		34, 56.
-		else if((hand[0]==hand[1] && hand[2]==hand[3] || hand[3]==hand[4] || hand[4]==hand[5] || hand[5]==hand[6]) ||
+		else if((hand[0]==hand[1] && hand[2]==hand[3] || hand[3]==hand[4] || hand[4]==hand[5]) ||
 			(hand[1]==hand[2] && hand[3]==hand[4]) ||
 			(hand[2]==hand[3] && hand[4]==hand[5]))	// two pair
 		{
